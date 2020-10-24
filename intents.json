@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there!", "How are you?", "Hey", "Hola!", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking!", "Good to see you again!", "Hi there, how can I help?"],
+     "context": [""] 
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time", "Until we meet again"],
+     "responses": ["Goodbye!", "Hope to chat with you again soon!", "Have a nice day!"],
+     "context": [""]
+    },
+    {"tag": "thanking",
+     "patterns": ["Thank you", "Thanks", "I appreciate it", "Gracias"],
+     "responses": ["My pleasure!", "You're welcome!", "No problem!", "You are very welcome!"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't uderstand you", "Not sure I understand"],
+     "context": [""]
+    }]
+}
